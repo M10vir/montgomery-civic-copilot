@@ -1,0 +1,5 @@
+[
+  {"id":"demo_missed_trash","label":"Missed trash pickup","question":"My garbage was not picked up today. What do I do?","expected_intent":"sanitation"},
+  {"id":"demo_district_lookup","label":"Find my council district","question":"Who is my council representative for this address?","expected_intent":"district_lookup"},
+  {"id":"demo_parking_transit","label":"Parking and transit downtown","question":"Where can I park downtown, and is transit nearby?","expected_intent":"parking"}
+]

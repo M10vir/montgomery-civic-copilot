@@ -1,0 +1,56 @@
+[
+  {
+    "id": "downtown_parking",
+    "category": "transportation",
+    "intent": "parking",
+    "title": "Downtown Parking",
+    "summary": "Parking locations and downtown parking guidance.",
+    "keywords": ["parking", "park", "downtown parking", "garage", "meter"],
+    "sample_questions": ["Where can I park downtown?", "Is there parking nearby?", "Find downtown parking"],
+    "next_steps": [
+      "Review downtown parking options.",
+      "Choose the closest suitable location.",
+      "Check transit options if you prefer not to drive."
+    ],
+    "source_label": "Downtown Parking",
+    "source_url": "https://opendata.montgomeryal.gov/pages/data",
+    "priority": 8,
+    "active": true
+  },
+  {
+    "id": "m_transit",
+    "category": "transportation",
+    "intent": "transit",
+    "title": "theM Transit",
+    "summary": "Public transit and paratransit service guidance.",
+    "keywords": ["bus", "transit", "public transport", "route", "ride", "paratransit"],
+    "sample_questions": ["Is there transit nearby?", "How do I take the bus?", "Find transit options"],
+    "next_steps": [
+      "Check available transit services and routes.",
+      "Confirm schedule and stop locations.",
+      "Use transit as an alternative to downtown parking."
+    ],
+    "source_label": "theM Transit",
+    "source_url": "https://opendata.montgomeryal.gov/pages/data",
+    "priority": 8,
+    "active": true
+  },
+  {
+    "id": "traffic_engineering",
+    "category": "transportation",
+    "intent": "traffic",
+    "title": "Traffic Engineering",
+    "summary": "Traffic and roadway-related guidance.",
+    "keywords": ["traffic", "road", "signal", "intersection", "street issue", "traffic light"],
+    "sample_questions": ["How do I report a traffic issue?", "There is a signal problem", "Who handles road traffic concerns?"],
+    "next_steps": [
+      "Describe the traffic concern (location, time, details).",
+      "Route to traffic engineering guidance or submit a 311 request if needed.",
+      "Follow up if the issue is urgent or persistent."
+    ],
+    "source_label": "Traffic Engineering",
+    "source_url": "https://opendata.montgomeryal.gov/pages/data",
+    "priority": 7,
+    "active": true
+  }
+]

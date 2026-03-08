@@ -1,0 +1,56 @@
+[
+  {
+    "id": "service_311",
+    "category": "city_services",
+    "intent": "service_request_311",
+    "title": "311 Service Requests",
+    "summary": "General city issue reporting and service request guidance.",
+    "keywords": ["311", "service request", "report issue", "complaint", "problem", "city issue"],
+    "sample_questions": ["How do I report a city issue?", "I need to file a complaint", "Where do I submit a service request?"],
+    "next_steps": [
+      "Identify the issue type (trash, road, property, etc.).",
+      "Submit a 311 service request using the city reporting path.",
+      "Keep a reference number and follow up if unresolved."
+    ],
+    "source_label": "311 Service Requests",
+    "source_url": "https://opendata.montgomeryal.gov/pages/data",
+    "priority": 9,
+    "active": true
+  },
+  {
+    "id": "sanitation_schedule",
+    "category": "city_services",
+    "intent": "sanitation",
+    "title": "Sanitation Schedules and Information",
+    "summary": "Garbage, trash schedules, recycling, and drop-off guidance.",
+    "keywords": ["trash", "garbage", "pickup", "recycling", "waste", "bin", "missed pickup"],
+    "sample_questions": ["My garbage was not picked up today", "When is trash day?", "Where can I recycle?"],
+    "next_steps": [
+      "Check sanitation schedule guidance for your area.",
+      "Confirm if weather/holiday changes apply.",
+      "If missed pickup persists, submit a 311 service request."
+    ],
+    "source_label": "Sanitation Schedules and Information",
+    "source_url": "https://opendata.montgomeryal.gov/pages/data",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "id": "code_violations",
+    "category": "city_services",
+    "intent": "code_violation",
+    "title": "Code Violations",
+    "summary": "Property and neighborhood code issue guidance.",
+    "keywords": ["code violation", "property complaint", "abandoned property", "unsafe property", "yard", "trash on property"],
+    "sample_questions": ["How do I report a property issue?", "There is an abandoned property near me", "How do I report a code violation?"],
+    "next_steps": [
+      "Describe the property issue clearly (address, photos if allowed).",
+      "Use the code violation reporting path or 311 if applicable.",
+      "Follow up if not addressed within a reasonable time."
+    ],
+    "source_label": "Code Violations",
+    "source_url": "https://opendata.montgomeryal.gov/pages/data",
+    "priority": 8,
+    "active": true
+  }
+]

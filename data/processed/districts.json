@@ -1,0 +1,38 @@
+[
+  {
+    "id": "address_lookup_district",
+    "category": "general_information",
+    "intent": "district_lookup",
+    "title": "Address Lookup & Council District Finder",
+    "summary": "Search an address to identify council district and local representation context.",
+    "keywords": ["district", "council district", "representative", "my address", "who represents me", "ward"],
+    "sample_questions": ["What is my council district?", "Who is my council representative?", "Find my district from my address"],
+    "next_steps": [
+      "Enter your address in the lookup field.",
+      "Confirm the returned council district.",
+      "Use the district info when contacting city services."
+    ],
+    "source_label": "Address Lookup & Council District Finder",
+    "source_url": "https://opendata.montgomeryal.gov/pages/data",
+    "priority": 10,
+    "active": true
+  },
+  {
+    "id": "gis_viewer",
+    "category": "general_information",
+    "intent": "map_lookup",
+    "title": "Montgomery GIS Viewer",
+    "summary": "Map-based city location and geographic context viewer.",
+    "keywords": ["map", "gis", "location", "show on map", "parcel", "viewer"],
+    "sample_questions": ["Show this on the map", "Where is this location?", "Open city map view"],
+    "next_steps": [
+      "Open the GIS viewer link.",
+      "Search the address or parcel area.",
+      "Use map context for nearby services."
+    ],
+    "source_label": "Montgomery GIS Viewer",
+    "source_url": "https://opendata.montgomeryal.gov/pages/data",
+    "priority": 6,
+    "active": true
+  }
+]
