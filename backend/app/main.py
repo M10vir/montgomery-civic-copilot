@@ -23,9 +23,16 @@ from .address_lookup import lookup_address
 
 app = FastAPI(title=APP_NAME, version=APP_VERSION)
 
+ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://gen-lang-client-0570326286.web.app",
+    "https://gen-lang-client-0570326286.firebaseapp.com",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[FRONTEND_ORIGIN],
+    allow_origins=ALLOWED_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

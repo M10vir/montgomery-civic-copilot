@@ -1,5 +1,5 @@
 // frontend/src/api/client.js
-const BASE_URL = "http://127.0.0.1:8000";
+const BASE_URL = "https://mcc-backend-900370650328.us-central1.run.app";
 
 export async function ask(question) {
   const res = await fetch(`${BASE_URL}/ask`, {

@@ -18,6 +18,10 @@ Tip: After you push to GitHub, replace the banner image link with a raw GitHub U
   <img alt="Vite" src="https://img.shields.io/badge/Vite-build-646CFF?logo=vite&logoColor=white" />
   <img alt="Gemini" src="https://img.shields.io/badge/Gemini-AI-4285F4?logo=google&logoColor=white" />
   <img alt="Bright Data" src="https://img.shields.io/badge/Bright%20Data-web%20intelligence-111827" />
+  <img alt="Google Cloud Run" src="https://img.shields.io/badge/Cloud%20Run-deployed-4285F4?logo=googlecloud&logoColor=white" />
+  <img alt="Cloud Build" src="https://img.shields.io/badge/Cloud%20Build-enabled-4285F4?logo=googlecloud&logoColor=white" />
+  <img alt="Artifact Registry" src="https://img.shields.io/badge/Artifact%20Registry-enabled-4285F4?logo=googlecloud&logoColor=white" />
+  <img alt="Firebase Hosting" src="https://img.shields.io/badge/Firebase%20Hosting-live-FFCA28?logo=firebase&logoColor=black" />
 </p>
 
 <p align="center">
@@ -35,7 +39,10 @@ Montgomery Civic Copilot helps residents quickly find the right City of Montgome
 
 ---
 
-## Judge Quickstart (2–3 minutes)
+## Quickstart (2–3 minutes)
+
+- **Live Demo:** https://gen-lang-client-0570326286.web.app  
+- **API Base:** https://mcc-backend-900370650328.us-central1.run.app
 
 ### What this is
 A resident-facing assistant that routes questions to the right Montgomery civic service and returns **trusted next steps**, enhanced with **Bright Data live insights** and polished by **Gemini**, while staying reliable via fallback rules.
@@ -89,6 +96,11 @@ See: **`docs/architecture.md`**
 - **Data:** City of Montgomery Open Data (curated JSON pack for MVP speed + stability)
 
 ---
+
+## Deployment (Live Prototype)
+- **Frontend:** Firebase Hosting — https://gen-lang-client-0570326286.web.app  
+- **Backend:** Google Cloud Run — https://mcc-backend-900370650328.us-central1.run.app  
+- **Build/Registry:** Cloud Build + Artifact Registry (image: `mcc-backend:latest`)
 
 ## Run locally
 

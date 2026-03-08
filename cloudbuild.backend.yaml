@@ -1,0 +1,13 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      [
+        "build",
+        "-f",
+        "backend/Dockerfile",
+        "-t",
+        "us-central1-docker.pkg.dev/gen-lang-client-0570326286/mcc-repo/mcc-backend:latest",
+        "."
+      ]
+images:
+  - "us-central1-docker.pkg.dev/gen-lang-client-0570326286/mcc-repo/mcc-backend:latest"
